@@ -1,0 +1,7 @@
+audio_states:
+  IDLE: { music_volume: 1.0, mic_active: false }
+  LISTENING: { music_volume: 0.2, mic_active: true }
+  SPEAKING: { music_volume: 0.2, mic_active: false }
+
+transition_speed: 300ms
+ducking_type: "Transient_Lower"

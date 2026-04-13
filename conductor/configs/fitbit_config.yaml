@@ -1,0 +1,8 @@
+fitbit_sync:
+  activity_type: "Weight_Lifting"
+  sync_on_event: "WORKOUT_COMPLETE"
+  data_points:
+    - calories_burned
+    - heart_rate_zones
+    - duration_minutes
+  auth_mode: OAuth2_PKCE

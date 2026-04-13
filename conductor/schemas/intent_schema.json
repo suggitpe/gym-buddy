@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "intent": "LOG_SET",
+      "utterances": ["Done", "That was 10 reps at 80kg", "Finished that set"],
+      "slots": ["reps", "weight", "rpe"]
+    },
+    {
+      "intent": "ADJUST_PLAN",
+      "utterances": ["That was too heavy", "I'm feeling tired", "Skip core today"],
+      "action": "modify_session_queue"
+    },
+    {
+      "intent": "BIO_REPORT",
+      "utterances": ["What's my heart rate?", "Check my Fitbit"],
+      "action": "fetch_wearable_data"
+    }
+  ]
+}
