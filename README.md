@@ -118,3 +118,26 @@ This is a Kotlin Multiplatform project. To get started, you will need to have th
 *   Kotlin Multiplatform Mobile plugin for Android Studio
 
 Once you have the prerequisites, you can clone the repository and open it in Android Studio.
+
+## Running the application
+
+### Android
+
+To run the application on an Android device or emulator:
+1. Open the project in Android Studio.
+2. Select the `androidApp` run configuration.
+3. Choose a target device or emulator.
+4. Click the "Run" button.
+
+### iOS
+
+To run the application on an iOS device or simulator:
+1. Open the project in Android Studio.
+2. Select the `iosApp` run configuration.
+3. Choose a target device or simulator.
+4. Click the "Run"button.
+
+Alternatively, you can run the app from Xcode:
+1. Open the `iosApp/iosApp.xcworkspace` file in Xcode.
+2. Select a target device or simulator.
+3. Click the "Run" button.
